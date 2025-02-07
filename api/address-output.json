@@ -1,0 +1,72 @@
+{
+    "data": {
+        "hitech": {
+            "1": {
+                "address": "141.95.145.208",
+                "port": 33002
+            }
+        },
+        "ultra_tech": {
+            "1": {
+                "address": "141.95.145.208",
+                "port": 33003
+            }
+        },
+        "magic_rpg": {
+            "1": {
+                "address": "51.210.154.229",
+                "port": 33004
+            }
+        },
+        "dark_magic": {
+            "1": {
+                "address": "135.125.4.19",
+                "port": 30001
+            }
+        },
+        "mystery_magic": {
+            "1": {
+                "address": "213.32.6.96",
+                "port": 30005
+            }
+        },
+        "techno_magic": {
+            "1": {
+                "address": "135.125.4.132",
+                "port": 33010
+            }
+        },
+        "techno_wizardry": {
+            "1": {
+                "address": "51.210.154.229",
+                "port": 33006
+            }
+        },
+        "fantasy_tech_rpg": {
+            "1": {
+                "address": "213.32.6.96",
+                "port": 30003
+            }
+        },
+        "spacex": {
+            "1": {
+                "address": "135.125.4.19",
+                "port": 30003
+            }
+        },
+        "techno_magic_sky": {
+            "1": {
+                "address": "51.210.154.229",
+                "port": 33005
+            }
+        },
+        "pixel_mon": {
+            "1": {
+                "address": "51.210.216.189",
+                "port": 30005
+            }
+        }
+    },
+    "country": "**",
+    "type": "success"
+}

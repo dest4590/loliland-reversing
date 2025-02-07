@@ -1,0 +1,332 @@
+{
+    "clients": {
+        "hitech": {
+            "system": "hitech",
+            "display": "HiTech",
+            "version": "1.7.10",
+            "updateVerify": [
+                "libraries",
+                "natives",
+                "mods",
+                "coremods",
+                "client.jar"
+            ],
+            "updateVersion": {
+                "config/*": "3.2",
+                "optionsof.txt": "2.0",
+                "lang/*": "1.3",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["client.jar", "coremods", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.7.10 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker"
+        },
+        "ultra_tech": {
+            "system": "ultra_tech",
+            "display": "UltraTech",
+            "version": "1.7.10",
+            "updateVerify": [
+                "libraries",
+                "natives",
+                "mods",
+                "coremods",
+                "client.jar"
+            ],
+            "updateVersion": {
+                "config/*": "3.2",
+                "optionsof.txt": "2.0",
+                "lang/*": "1.1",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["client.jar", "coremods", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.7.10 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker"
+        },
+        "magic_rpg": {
+            "system": "magic_rpg",
+            "display": "Magic RPG",
+            "version": "1.7.10",
+            "updateVerify": [
+                "libraries",
+                "natives",
+                "mods",
+                "coremods",
+                "client.jar"
+            ],
+            "updateVersion": {
+                "config/*": "3.0",
+                "optionsof.txt": "2.0",
+                "lang/*": "1.0",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["client.jar", "coremods", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.7.10 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker"
+        },
+        "dark_magic": {
+            "system": "dark_magic",
+            "display": "DarkMagic",
+            "version": "1.12.2",
+            "updateVerify": [
+                "libraries",
+                "natives",
+                "mods",
+                "scripts",
+                "minecraft.jar",
+                "forge.jar"
+            ],
+            "updateVersion": {
+                "config/*": "2.2",
+                "optionsof.txt": "2.0",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["forge.jar", "minecraft.jar", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.12.2 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker"
+        },
+        "mystery_magic": {
+            "system": "mystery_magic",
+            "display": "MysteryMagic",
+            "version": "1.16.5",
+            "updateVerify": ["minecraft.jar", "libraries", "natives", "mods"],
+            "updateVersion": {
+                "config/*": "1.2",
+                "optionsof.txt": "1.0",
+                "options.txt": "1.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["minecraft.jar", "libraries"],
+            "mainClass": "cpw.mods.modlauncher.Launcher",
+            "minecraftArguments": "--username ${auth_player_name} --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.16 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --versionType modified --launchTarget fmlclient --fml.forgeVersion 36.2.39 --fml.mcVersion 1.16.5 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210115.111550"
+        },
+        "techno_wizardry": {
+            "system": "techno_wizardry",
+            "display": "TechnoWizardry",
+            "version": "1.7.10",
+            "updateVerify": [
+                "libraries",
+                "natives",
+                "mods",
+                "coremods",
+                "client.jar"
+            ],
+            "updateVersion": {
+                "config/*": "3.7",
+                "optionsof.txt": "2.0",
+                "lang/*": "1.2",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["client.jar", "coremods", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.7.10 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker"
+        },
+        "techno_magic": {
+            "system": "techno_magic",
+            "display": "TechnoMagic RPG",
+            "version": "1.7.10",
+            "updateVerify": [
+                "libraries",
+                "natives",
+                "mods",
+                "coremods",
+                "client.jar"
+            ],
+            "updateVersion": {
+                "config/*": "3.1",
+                "optionsof.txt": "2.0",
+                "lang/*": "1.1",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["client.jar", "coremods", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.7.10 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker"
+        },
+        "techno_magic_sky": {
+            "system": "techno_magic_sky",
+            "display": "TechnoMagic Sky",
+            "version": "1.7.10",
+            "updateVerify": [
+                "libraries",
+                "natives",
+                "mods",
+                "coremods",
+                "client.jar"
+            ],
+            "updateVersion": {
+                "config/*": "3.2",
+                "optionsof.txt": "2.0",
+                "lang/*": "1.3",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["client.jar", "coremods", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.7.10 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass cpw.mods.fml.common.launcher.FMLTweaker"
+        },
+        "spacex": {
+            "system": "spacex",
+            "display": "SpaceX",
+            "version": "1.12.2",
+            "updateVerify": [
+                "scripts",
+                "libraries",
+                "natives",
+                "mods",
+                "minecraft.jar",
+                "forge.jar"
+            ],
+            "updateVersion": {
+                "config/*": "2.5",
+                "optionsof.txt": "2.0",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["forge.jar", "minecraft.jar", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.12.2 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker"
+        },
+        "fantasy_tech_rpg": {
+            "system": "fantasy_tech_rpg",
+            "display": "FantasyTech RPG",
+            "version": "1.16.5",
+            "updateVerify": ["minecraft.jar", "libraries", "natives", "mods"],
+            "updateVersion": {
+                "config/*": "2.9",
+                "optionsof.txt": "2.0",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["minecraft.jar", "libraries"],
+            "mainClass": "cpw.mods.modlauncher.Launcher",
+            "minecraftArguments": "--username ${auth_player_name} --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.16 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --versionType modified --launchTarget fmlclient --fml.forgeVersion 36.2.39 --fml.mcVersion 1.16.5 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210115.111550"
+        },
+        "pixel_mon": {
+            "system": "pixel_mon",
+            "display": "PixelMon",
+            "version": "1.12.2",
+            "updateVerify": [
+                "scripts",
+                "libraries",
+                "natives",
+                "mods",
+                "minecraft.jar",
+                "forge.jar"
+            ],
+            "updateVersion": {
+                "armourers_workshop": "1.0",
+                "optionsof.txt": "2.0",
+                "options.txt": "2.0"
+            },
+            "jvmArgs": [
+                "-Dminetweaker.noLogger\u003dtrue",
+                "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+                "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+                "-XX:+UseConcMarkSweepGC",
+                "-XX:+CMSIncrementalMode",
+                "-XX:-UseAdaptiveSizePolicy",
+                "-Xmn128M",
+                "-XX:+DisableAttachMechanism"
+            ],
+            "classPath": ["forge.jar", "minecraft.jar", "libraries"],
+            "mainClass": "net.minecraft.launchwrapper.Launch",
+            "minecraftArguments": "-username\u003d\"${auth_player_name}\" --version ${version} --gameDir ${gameDir} --assetsDir ${assetsDir} --assetIndex 1.12.2 --uuid 00000000-0000-0000-0000-000000000000 --accessToken null --userProperties [] --userType legacy --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker"
+        }
+    },
+    "type": "success"
+}
